@@ -1,4 +1,4 @@
-# Assignment
+<b> Assignment:<b>
 <p>
 Using the API given below create an automated test with the listed acceptance criteria:
   <br/>
@@ -24,7 +24,7 @@ In this test I am making a get request, deserialize the response in pojo(plain o
   <li> Run the "src/test/resources/testng.xml" file. It will execute the test method stored in "src/test/java/Tests.java" class.</li>
 </ul>
   </br>
-  <b>Second way:</b> In case of facing any issue in executing test, you can directly execute the <b>main</b> of "src/test/java/TestWithoutTestNg.java" class.
+  <b>Second way:</b>In case of any issue in executing above testng test, you can test the logic by directly executing the <b>main</b> method of "src/test/java/TestWithoutTestNg.java" class.
 <b> 
     
   
