@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    <test name="Login" >
+        <parameter name="expectedName" value="Carbon credits"/>
+        <parameter name="expectedCanRelist" value="true"/>
+        <parameter name="promotionName" value="Gallery"/>
+        <parameter name="promotionDesc" value="2x larger image"/>
+        <parameter name="categoryID" value="6327"/>
+        <parameter name="expectedResponseCode" value="200"/>
+        <classes>
+            <class name="Tests" />
+        </classes>
+    </test>
+
+</suite>
