@@ -13,6 +13,8 @@ Using the API given below create an automated test with the listed acceptance cr
   <b>Automated Test:</b>
 <p>I have created the automated test to validate the above acceptance criteria using <b>Java</b> programming language and <b>REST Assured</b> library for testing HTTP endpoints.
   <br/>
+  <img src="https://www.dropbox.com/s/icl06m5l5pjjrsc/first.png?dl=0" alt="first.png">
+  <br/>
 In this test I am making a get request, deserialize the response in pojo(plain old java objects) class and verifying fields contents as per acceptance criteria.
   
  </p>
