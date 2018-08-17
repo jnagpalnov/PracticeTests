@@ -1,4 +1,4 @@
-<b> Assignment:<b>
+<b> Assignment:</b>
 <p>
 Using the API given below create an automated test with the listed acceptance criteria:
   <br/>
