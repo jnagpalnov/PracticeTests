@@ -15,7 +15,7 @@ Using the API given below create an automated test with the listed acceptance cr
   <br/>
   <img src="https://preview.ibb.co/hq0Dfz/first.png" alt="first.png">
   <br/>
-In this test I am making a get request, deserialize the response in pojo(plain old java objects) class and verifying fields contents as per acceptance criteria.
+In this test, I am making a get request to https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=false, deserialize the Json response into pojo(plain old java objects) class and then verifying fields contents as per the acceptance criteria.
   
  </p>
   <b>Running automated test</b>
