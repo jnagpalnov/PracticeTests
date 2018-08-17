@@ -3,7 +3,7 @@
 Using the API given below create an automated test with the listed acceptance criteria:
   <br/>
   <b>API</b> = https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=false
-<b>Acceptance Criteria:</b>
+  <b>Acceptance Criteria:</b>>
   <ul>
     <li><b>Name</b> = "Carbon credits"</li>
     <li><b>CanRelist</b> = true</li>
@@ -11,7 +11,20 @@ Using the API given below create an automated test with the listed acceptance cr
     </ul>
 <p>
   <b>Automated Test:</b>
-<p>I have created the automated test to validate the above acceptance criteria using Java programming language and <b>REST Assured<b> library for testing HTTP endpoints.
+<p>I have created the automated test to validate the above acceptance criteria using <b>Java</b> programming language and <b>REST Assured</b> library for testing HTTP endpoints.
+  <br/>
+In this test I am making a get request, deserialize the response in pojo(plain old java objects) class and verifying fields contents as per acceptance criteria.
   
  </p>
+  <b>Running automated test</b>
+  </br>
+  <b> First way:</b> 
+  <ul>
+  <li> Clone the reposatory and add project as a Maven project.</li>
+  <li> Run the "src/test/resources/testng.xml" file. It will execute the test method stored in "src/test/java/Tests.java" class.</li>
+</ul>
+  </br>
+  <b>Second way:</b> In case of facing any issue in executing test, you can directly execute the <b>main</b> of "src/test/java/TestWithoutTestNg.java" class.
+<b> 
+    
   
